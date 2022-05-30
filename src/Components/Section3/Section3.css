@@ -1,0 +1,44 @@
+.section-3{
+    margin-top: 100px;
+    text-align: center;
+    background-color: #E8EBF1;
+    padding:50px ;
+    box-shadow: 0 0 10px #8080809c;
+}
+.section-3 h3{
+    color: #58D57D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.section-3 h2{
+    color: #eee;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    font-style: italic;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0 auto;
+    background: repeating-conic-gradient(#4fd675, #46c56a 1%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+
+@media (max-width:991px){
+
+    .section-3{
+        margin-top: 50px;
+        padding: 10px;
+    }
+    .section-3 h2{
+        font-size: 30px;
+        padding: 5px;
+        width: 70%;
+        letter-spacing: 0;
+
+    }
+
+
+}

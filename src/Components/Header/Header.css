@@ -1,0 +1,66 @@
+.header{
+    background: url("../Img/bg.jpg")center/cover;
+    height: 100vh;   
+}
+.header-content{
+    padding: 100px 0 0 50px;
+}
+.header-content h3{
+    color: #808080d0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.header-content h1{
+    line-height: 80px;
+    padding-top: 20px;
+    width: 500px;
+    letter-spacing: 1px;
+    font-size: 70px;
+    color: #000000c7;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-content p{
+    width:550px;
+    line-height: 25px;
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(78, 78, 78);
+    font-size: 18px;
+}
+.header-content button{
+    background-color: #4fd675;
+    margin-top: 30px;
+    color: #fff;
+    border-radius: 100px;
+    border: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: .7s;
+}
+.header-content button:hover{
+  box-shadow: inset 200px 0 0 0 #36aa57e8;
+}
+
+@media (max-width:991px){
+    .header-content{
+        padding: 80px 0 0 20px;
+    }
+    .header-content h3{
+        font-size: 16px;
+    }
+    .header-content h1{
+        font-size: 33px;
+        width: 80%;
+        line-height: 35px;
+    }
+    .header-content p{
+        width: 90%;
+        font-size: 18px;
+        color: #000;
+    }
+}

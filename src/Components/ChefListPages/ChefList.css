@@ -1,0 +1,48 @@
+.cheflist{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.chefslist{
+    background-image: linear-gradient(to right, #ff000000, #f4f4f4);
+    padding: 15px 35px 0;
+    box-shadow: #0000001c 0px 50px 20px -10px;
+    border-radius: 3px;
+}
+.chefList-btn{
+    text-align: center;
+}
+.chefList-btn button{
+    background-color: #4fd675;
+    margin-top: 30px;
+    color: #fff;
+    border-radius: 100px;
+    border: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    cursor: pointer;
+    transition: .7s;
+}
+.chefList-btn button:hover{
+  box-shadow: inset 200px 0 0 0 #36aa57e8;
+}
+.spinload{
+    text-align: center;
+}
+
+@media (max-width:991px){
+    .cheflist{
+        display: inherit;
+    }    
+    .chefList-btn button{
+        padding: 10px 28px;
+        font-size: 0.9rem;
+    }
+
+}   

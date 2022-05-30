@@ -1,0 +1,27 @@
+.slider{
+    margin-top: 50px;
+}
+.menu-1 img{
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px gray;
+    background-color: #fff;
+}
+.menu-1-content a,.menu-2-content a,.menu-3-content a{
+    font-size: 20px;
+    font-family: arial;
+    font-weight: 300;
+    color: #333;
+    border-bottom: 1px solid black;
+}
+.menu-1-top,.menu-2-top,.menu-3-top{
+    padding-top: 30px;
+}
+.menu-1-top a,.menu-2-top a,.menu-3-top a{
+    color: #58D57D;
+}
+.menu-1-icon,.menu-2-icon,.menu-3-icon{
+    transform: translateY(4px);
+    font-size: 22px;
+    color: #333;
+}
